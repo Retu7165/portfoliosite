@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+header{
+    
+    padding-inline: 5rem;
+    background:linear-gradient(181deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 1) 100%);
+    margin-bottom: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: right;
+	padding-top: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav a {
+    font-size: 1.1em;
+    margin-inline: .5rem;
+    font-weight: 600;
+    color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(61, 65, 68);
+}
+.social img{
+    width: 25px;
+    height: 25px;
+}
+.imgDescription{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 50vh; */
+}
+.description h3{
+    font-size: 3em;
+}
+.description h1{
+    font-size: 5em;
+}
+.description p{
+    font-size: 2em;
+}
+
+main{
+    padding-inline: 5rem;
+}
+#about{
+    margin-block: 3rem;
+}
+#about h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+text-align: center;
+}
+.aboutDescription{
+    display: flex;
+    gap: 1rem;
+}
+.aboutDescription div{
+    flex-basis: 50%;
+}
+
+.linkedin{
+    padding-top: 2px;
+}
+#contact h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+text-align: center;
+}
+#contact p{
+    margin-bottom: 2rem;
+}
+footer {
+	background-color: #f2f2f2;
+    text-align: center;
+}
